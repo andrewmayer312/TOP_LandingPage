@@ -31,6 +31,9 @@ button {
     padding: 8px 16px;
     justify-content: center;
     color: #e5e7eb;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
 }
 
 .content {
@@ -42,7 +45,7 @@ button {
 .header,
 .footer {
     background-color: #1f2937;
-    min-height: 64px;
+    flex-basis: 64px;
     display: flex;
     align-items: center;
     color: white;
@@ -161,3 +164,23 @@ button {
     font-size: 24px;
 }
 
+ .fourth-section {
+    margin: 0;
+    padding: 50px;
+    justify-content: center;
+ }
+
+ .blue-box {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    background: blue;
+    border-radius: 8px;
+    padding: 40px;
+    color: white;
+ }
+
+ .top-text {
+    font-size: 20px;
+    font-weight: bolder;
+ }
