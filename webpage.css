@@ -74,7 +74,7 @@ button {
 .first-section {
     background-color: #1f2937;
     gap: 40px;
-    padding: 64px;
+    padding: 50px;
 }
 .first-left,
 .first-right {
@@ -95,6 +95,11 @@ button {
     align-items: center;
     padding: 32px;
     gap: 32px;
+}
+
+.information-header {
+    font-size: 32px;
+    font-weight: 900;
 }
 
 .deck-container {
@@ -122,10 +127,6 @@ button {
     padding: 1rem; 
 }
 
-.third-section {
-    background-color: #e5e7eb;
-}
-
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;
@@ -137,3 +138,26 @@ button {
     color: #e5e7eb;
     font-weight: 100;
 }
+
+.third-section {
+    background-color: #e5e7eb;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    align-self: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+
+}
+
+.quote-speaker {
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 24px;
+}
+
